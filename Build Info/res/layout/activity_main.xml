@@ -1,0 +1,296 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+     >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="@string/release"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_release"
+		    
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Board: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_board"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Brand: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_brand"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>    	    
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Device: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_device"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Display: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_display"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Fingerprint: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_fingerprint"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Hardware: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_hardware"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Manufacturer: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_manufacturer"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Model: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_model"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Product: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_product"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Type: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_type"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Boot loader: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_bootloader"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="SDK: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/build_sdk"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+		
+        <Button
+            android:text="Open Battey Info app"
+            android:id="@+id/battery_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+    
+</TableLayout>
+
+</ScrollView>
