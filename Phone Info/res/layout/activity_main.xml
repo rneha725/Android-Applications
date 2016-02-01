@@ -1,0 +1,163 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+     >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Battery Level: "
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_level"
+		    
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Technology: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_technology"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Plugged: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_plugged"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>    	    
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Health: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_health"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Status: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_status"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Voltage: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_voltage"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin" >
+        
+        <TextView
+            android:text="Temperature: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+		</TextView>
+		<TextView
+		    android:id="@+id/battery_temperature"
+		    android:layout_width="match_parent"
+            android:layout_height="match_parent"
+		    >
+		</TextView>
+        
+    </TableRow>
+    
+    <Button 
+        android:id="@+id/build_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="build_info()"
+        android:text="Open Build Info app"
+        />
+</TableLayout>
